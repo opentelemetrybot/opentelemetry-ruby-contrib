@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: read
-
 jobs:
   release-update-open-requests:
     permissions:
