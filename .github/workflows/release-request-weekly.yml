@@ -4,12 +4,18 @@ on:
   schedule:
     - cron: "0 15 * * 2"
 
+permissions:
+  contents: read
+
 jobs:
   release-request:
     if: ${{ github.repository == 'open-telemetry/opentelemetry-ruby-contrib' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     env:
       ruby_version: "3.1"
-    runs-on: ubuntu-latest
     steps:
       - name: Install Ruby ${{ env.ruby_version }}
         uses: ruby/setup-ruby@v1.245.0
