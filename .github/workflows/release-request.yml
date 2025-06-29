@@ -7,7 +7,6 @@ on:
         description: Gems to release (leave blank to release all gems)
         required: false
         default: ""
-
 permissions:
   contents: read
 jobs:

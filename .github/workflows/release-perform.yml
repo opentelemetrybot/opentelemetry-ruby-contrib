@@ -13,7 +13,6 @@ on:
         description: Extra flags to pass to the release script
         required: false
         default: ""
-
 permissions:
   contents: read
 jobs:

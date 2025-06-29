@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: read
+
 jobs:
   spelling-check:
     name: SPELLING check

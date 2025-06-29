@@ -3,7 +3,6 @@ name: "[release hook] Process release"
 on:
   pull_request:
     types: [closed]
-
 permissions:
   contents: read
 jobs:

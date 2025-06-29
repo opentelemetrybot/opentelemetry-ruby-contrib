@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: read
+
 jobs:
   markdownlint-check:
     runs-on: ubuntu-latest
