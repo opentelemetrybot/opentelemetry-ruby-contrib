@@ -11,7 +11,6 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number }}  # Ensure that only one instance of this workflow is running per Pull Request
@@ -19,6 +18,8 @@ concurrency:
 
 jobs:
   validate-commits:
+    permissions:
+      pull-requests: read # required for accessing PR information
     name: Conventional Commits Validation
     runs-on: ubuntu-latest
     steps:
