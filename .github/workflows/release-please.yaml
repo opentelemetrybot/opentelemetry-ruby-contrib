@@ -24,8 +24,8 @@ jobs:
           private-key: ${{ secrets.OTELBOT_PRIVATE_KEY }}
       - uses: googleapis/release-please-action@v4.2.0
         id: prepare
-        with:
-          token: ${{ steps.otelbot-token.outputs.token }}
+        # with:
+        #   token: ${{ steps.otelbot-token.outputs.token }}
 
     outputs:
       paths_released: ${{ steps.prepare.outputs.paths_released }}
