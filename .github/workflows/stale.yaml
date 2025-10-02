@@ -11,6 +11,7 @@ jobs:
   stale:
 
     permissions:
+      actions: write # because actions/stale deletes its old cache before saving new one
       issues: write # required for labeling and closing stale issues
       pull-requests: write # required for labeling and closing stale PRs
 
