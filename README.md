@@ -42,6 +42,22 @@ For more information about the maintainer role, see the [community repository](h
 
 For more information about the approver role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#approver).
 
+### Emeritus
+
+- [Andrew Hayworth](https://github.com/ahayworth), Maintainer
+- [Eric Mustin](https://github.com/ericmustin), Maintainer
+- [Francis Bogsanyi](https://github.com/fbogsany), Maintainer
+- [Indrek Juhkam](https://github.com/indrekj), Triager
+- [Jonathan Lee](https://github.com/jj22ee), Triager
+- [Matthew Wear](https://github.com/mwear), Maintainer
+- [Muriel](https://github.com/muripic), Triager
+- [Nathaniel Ruiz Nowell](https://github.com/NathanielRN), Triager
+- [Robert Laurin](https://github.com/robertlaurin), Maintainer
+- [Sam Handler](https://github.com/plantfansam), Maintainer
+
+For more information about the emeritus role, see the
+[community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#emeritus-maintainerapprovertriager).
+
 ## Instrumentation Libraries
 
 This repository contains instrumentation libraries for many popular Ruby
@@ -96,22 +112,6 @@ This repository was extracted from the [OpenTelemetry Ruby repository][otel-ruby
 
 - For more information on OpenTelemetry, visit: <https://opentelemetry.io/>
 - For help or feedback on this project, join us in [GitHub Discussions][discussions-url]
-
-### Emeritus
-
-- [Andrew Hayworth](https://github.com/ahayworth), Maintainer
-- [Eric Mustin](https://github.com/ericmustin), Maintainer
-- [Francis Bogsanyi](https://github.com/fbogsany), Maintainer
-- [Indrek Juhkam](https://github.com/indrekj), Triager
-- [Jonathan Lee](https://github.com/jj22ee), Triager
-- [Matthew Wear](https://github.com/mwear), Maintainer
-- [Muriel](https://github.com/muripic), Triager
-- [Nathaniel Ruiz Nowell](https://github.com/NathanielRN), Triager
-- [Robert Laurin](https://github.com/robertlaurin), Maintainer
-- [Sam Handler](https://github.com/plantfansam), Maintainer
-
-For more information about the emeritus role, see the
-[community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#emeritus-maintainerapprovertriager).
 
 ## License
 
