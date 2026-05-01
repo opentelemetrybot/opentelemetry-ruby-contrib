@@ -1,10 +1,7 @@
 --no-private
---title=OpenTelemetry Sidekiq Instrumentation
+--title=OpenTelemetry gRPC Instrumentation
 --markup=markdown
 --main=README.md
---stats
---list-undoc
---tag=instrumentation_option_default:"Default"
 ./lib/opentelemetry/instrumentation/**/*.rb
 ./lib/opentelemetry/instrumentation.rb
 -
